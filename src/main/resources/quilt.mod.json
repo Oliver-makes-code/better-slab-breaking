@@ -1,25 +1,24 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "olivermakesco.de",
+		"id": "better-slab-breaking",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Better Slab breaking",
+			"description": "Allows you to break only half of a slab",
 			"contributors": {
-				"Me!": "Owner"
+				"Octal": "Author"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/Oliver-makes-code/better-slab-breaking/issues",
+				"sources": "https://github.com/Oliver-makes-code/better-slab-breaking"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/better-slab-breaking/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "olivermakesco.de.slab.Mod"
 		},
 		"depends": [
 			{
@@ -36,5 +35,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "better-slab-breaking.mixins.json"
 }

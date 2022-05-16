@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "olivermakesco.de.slab.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "Mixin_SlabBlock"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
